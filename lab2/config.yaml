@@ -1,0 +1,25 @@
+dataset: cifar10
+batch_size: 10000
+train_epochs: 30
+model: SimpleCNN
+optimizer: adam
+learning_rate: 0.001
+device: auto
+test_batch_fixed: true
+
+experiment_configs:
+  - name: "1 batch"
+    train_batches: [0]
+    val_batches: [1]
+
+  - name: "2 batches"
+    train_batches: [0, 1]
+    val_batches: [2]
+
+  - name: "3 batches"
+    train_batches: [0, 1, 2]
+    val_batches: [3]
+
+  - name: "4 batches"
+    train_batches: [0, 1, 2, 3]
+    val_batches: [4]
