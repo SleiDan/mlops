@@ -1,0 +1,23 @@
+stages:
+  download_data:
+    cmd: python scripts/download_data.py
+    deps:
+    - scripts/download_data.py
+    outs:
+    - data/iris.csv
+  train_model:
+    cmd: python scripts/train_model.py
+    deps:
+    - data/iris.csv
+    - params.yaml
+    - scripts/train_model.py
+    outs:
+    - models/model.pkl
+  evaluate_model:
+    cmd: python scripts/evaluate_model.py
+    deps:
+    - data/iris.csv
+    - models/model.pkl
+    - scripts/evaluate_model.py
+    outs:
+    - metrics.txt

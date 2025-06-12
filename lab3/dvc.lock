@@ -1,0 +1,54 @@
+schema: '2.0'
+stages:
+  download_data:
+    cmd: python scripts/download_data.py
+    deps:
+    - path: scripts/download_data.py
+      hash: md5
+      md5: 35f4166712252713e799891f00f24d70
+      size: 150
+    outs:
+    - path: data/iris.csv
+      hash: md5
+      md5: 4d301abed5efe50eccda350cde38e0eb
+      size: 2777
+  train_model:
+    cmd: python scripts/train_model.py
+    deps:
+    - path: data/iris.csv
+      hash: md5
+      md5: 4d301abed5efe50eccda350cde38e0eb
+      size: 2777
+    - path: params.yaml
+      hash: md5
+      md5: 152da7a86709dcbe3634be7b21ff1852
+      size: 41
+    - path: scripts/train_model.py
+      hash: md5
+      md5: 8ff4777568cd68231cecffb63608e6a7
+      size: 547
+    outs:
+    - path: models/model.pkl
+      hash: md5
+      md5: c3549f7e47af1fcd2687e31feec25349
+      size: 1001
+  evaluate_model:
+    cmd: python scripts/evaluate_model.py
+    deps:
+    - path: data/iris.csv
+      hash: md5
+      md5: 4d301abed5efe50eccda350cde38e0eb
+      size: 2777
+    - path: models/model.pkl
+      hash: md5
+      md5: c3549f7e47af1fcd2687e31feec25349
+      size: 1001
+    - path: scripts/evaluate_model.py
+      hash: md5
+      md5: a9452e933b213e3b2f854efbbe4ab990
+      size: 487
+    outs:
+    - path: metrics.txt
+      hash: md5
+      md5: e800ac47a9cca7f0ab5ec7f632714217
+      size: 17
