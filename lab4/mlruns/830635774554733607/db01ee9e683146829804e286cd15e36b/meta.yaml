@@ -1,0 +1,14 @@
+artifact_uri: file:d:\ІМШ\lab4\mlruns/830635774554733607/db01ee9e683146829804e286cd15e36b/artifacts
+end_time: 1749900911929
+entry_point_name: ''
+experiment_id: '830635774554733607'
+lifecycle_stage: active
+run_id: db01ee9e683146829804e286cd15e36b
+run_name: LR=0.015
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749900911694
+status: 3
+tags: []
+user_id: dansh
