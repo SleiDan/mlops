@@ -1,0 +1,16 @@
+{"time":"2025-06-14T15:20:40.145296+03:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"d:\\ІМШ\\lab5\\wandb\\run-20250614_152039-x57kldnd\\logs\\debug-core.log"}
+{"time":"2025-06-14T15:20:40.463639+03:00","level":"INFO","msg":"stream: created new stream","id":"x57kldnd"}
+{"time":"2025-06-14T15:20:40.463639+03:00","level":"INFO","msg":"stream: started","id":"x57kldnd"}
+{"time":"2025-06-14T15:20:40.463639+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"x57kldnd"}
+{"time":"2025-06-14T15:20:40.463639+03:00","level":"INFO","msg":"handler: started","stream_id":"x57kldnd"}
+{"time":"2025-06-14T15:20:40.463639+03:00","level":"INFO","msg":"sender: started","stream_id":"x57kldnd"}
+{"time":"2025-06-14T15:20:40.755495+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-14T15:21:16.5721227+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-14T15:21:16.5721227+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-14T15:21:17.5239831+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-14T15:21:17.5795506+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary","runtime_seconds":0.0555675}],"total_operations":1}}
+{"time":"2025-06-14T15:21:17.7647044+03:00","level":"INFO","msg":"stream: closing","id":"x57kldnd"}
+{"time":"2025-06-14T15:21:17.7647044+03:00","level":"INFO","msg":"handler: closed","stream_id":"x57kldnd"}
+{"time":"2025-06-14T15:21:17.7647044+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"x57kldnd"}
+{"time":"2025-06-14T15:21:17.7647044+03:00","level":"INFO","msg":"sender: closed","stream_id":"x57kldnd"}
+{"time":"2025-06-14T15:21:17.7647044+03:00","level":"INFO","msg":"stream: closed","id":"x57kldnd"}

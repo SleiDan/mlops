@@ -1,0 +1,28 @@
+2025-06-14 15:21:16,566 INFO    MainThread:4820 [wandb_init.py:setup_run_log_directory():703] Logging user logs to d:\²ÌØ\lab5\wandb\run-20250614_152116-rm6ploqg\logs\debug.log
+2025-06-14 15:21:16,566 INFO    MainThread:4820 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to d:\²ÌØ\lab5\wandb\run-20250614_152116-rm6ploqg\logs\debug-internal.log
+2025-06-14 15:21:16,566 INFO    MainThread:4820 [wandb_init.py:monkeypatch_ipython():622] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000025F818E7220>
+2025-06-14 15:21:16,566 INFO    MainThread:4820 [wandb_init.py:init():831] calling init triggers
+2025-06-14 15:21:16,566 INFO    MainThread:4820 [wandb_init.py:init():836] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.001, 'batch_size': 32, 'epochs': 5, '_wandb': {}}
+2025-06-14 15:21:17,764 INFO    MainThread:4820 [wandb_init.py:init():872] starting backend
+2025-06-14 15:21:17,764 INFO    MainThread:4820 [wandb_init.py:init():875] sending inform_init request
+2025-06-14 15:21:17,767 INFO    MainThread:4820 [wandb_init.py:init():883] backend started and connected
+2025-06-14 15:21:17,768 INFO    MainThread:4820 [wandb_run.py:_label_probe_notebook():1299] probe notebook
+2025-06-14 15:21:17,768 INFO    MainThread:4820 [wandb_run.py:_label_probe_notebook():1309] Unable to probe notebook: Expecting value: line 1 column 1 (char 0)
+2025-06-14 15:21:17,768 INFO    MainThread:4820 [wandb_init.py:init():956] updated telemetry
+2025-06-14 15:21:17,804 INFO    MainThread:4820 [wandb_init.py:init():980] communicating run to backend with 90.0 second timeout
+2025-06-14 15:21:18,348 INFO    MainThread:4820 [wandb_init.py:init():1032] starting run threads in backend
+2025-06-14 15:21:18,441 INFO    MainThread:4820 [wandb_run.py:_console_start():2453] atexit reg
+2025-06-14 15:21:18,441 INFO    MainThread:4820 [wandb_run.py:_redirect():2301] redirect: wrap_raw
+2025-06-14 15:21:18,441 INFO    MainThread:4820 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2025-06-14 15:21:18,441 INFO    MainThread:4820 [wandb_run.py:_redirect():2393] Redirects installed.
+2025-06-14 15:21:18,442 INFO    MainThread:4820 [wandb_init.py:init():1078] run started, returning control to user process
+2025-06-14 15:21:18,443 INFO    MainThread:4820 [wandb_init.py:_post_run_cell_hook():592] [no run ID] resuming backend
+2025-06-14 15:24:05,948 INFO    MainThread:4820 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-06-14 15:24:05,949 INFO    MainThread:4820 [wandb_init.py:_pre_run_cell_hook():581] [no run ID] pausing backend
+2025-06-14 15:24:05,958 INFO    MainThread:4820 [wandb_run.py:_finish():2219] finishing run dan-shvedun-national-technical-university-kharkiv-polyte/mlops-lab5/rm6ploqg
+2025-06-14 15:24:05,961 INFO    MainThread:4820 [jupyter.py:save_ipynb():404] not saving jupyter notebook
+2025-06-14 15:24:05,961 INFO    MainThread:4820 [wandb_init.py:_jupyter_teardown():607] cleaning up jupyter logic
+2025-06-14 15:24:05,961 INFO    MainThread:4820 [wandb_run.py:_atexit_cleanup():2418] got exitcode: 0
+2025-06-14 15:24:05,962 INFO    MainThread:4820 [wandb_run.py:_restore():2400] restore
+2025-06-14 15:24:05,962 INFO    MainThread:4820 [wandb_run.py:_restore():2406] restore done

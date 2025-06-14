@@ -1,0 +1,5 @@
+2025-06-14 15:24:05,956 INFO    MainThread:4820 [wandb_init.py:setup_run_log_directory():703] Logging user logs to d:\²ÌØ\lab5\wandb\run-20250614_152405-lpbdsa12\logs\debug.log
+2025-06-14 15:24:05,956 INFO    MainThread:4820 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to d:\²ÌØ\lab5\wandb\run-20250614_152405-lpbdsa12\logs\debug-internal.log
+2025-06-14 15:24:05,956 INFO    MainThread:4820 [wandb_init.py:init():831] calling init triggers
+2025-06-14 15:24:05,956 INFO    MainThread:4820 [wandb_init.py:init():836] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.001, 'batch_size': 32, 'epochs': 5, '_wandb': {}}

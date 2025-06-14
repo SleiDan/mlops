@@ -1,0 +1,23 @@
+{"time":"2025-06-14T15:24:51.5994076+03:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"d:\\ІМШ\\lab5\\wandb\\run-20250614_152451-3ejvf0u3\\logs\\debug-core.log"}
+{"time":"2025-06-14T15:24:51.9385784+03:00","level":"INFO","msg":"stream: created new stream","id":"3ejvf0u3"}
+{"time":"2025-06-14T15:24:51.9385784+03:00","level":"INFO","msg":"stream: started","id":"3ejvf0u3"}
+{"time":"2025-06-14T15:24:51.9385784+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"3ejvf0u3"}
+{"time":"2025-06-14T15:24:51.9385784+03:00","level":"INFO","msg":"handler: started","stream_id":"3ejvf0u3"}
+{"time":"2025-06-14T15:24:51.9385784+03:00","level":"INFO","msg":"sender: started","stream_id":"3ejvf0u3"}
+{"time":"2025-06-14T15:24:52.2127446+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-14T15:41:35.187892+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-14T15:41:35.1993218+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-14T15:42:16.0316923+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-14T15:42:16.0338554+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-14T15:42:19.8169977+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-14T15:42:20.1540951+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-06-14T15:42:33.3720459+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-14T15:42:33.3770254+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-14T15:42:33.3770254+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-14T15:42:34.07807+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-14T15:42:34.3179809+03:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-06-14T15:42:34.3237577+03:00","level":"INFO","msg":"stream: closing","id":"3ejvf0u3"}
+{"time":"2025-06-14T15:42:34.3237577+03:00","level":"INFO","msg":"handler: closed","stream_id":"3ejvf0u3"}
+{"time":"2025-06-14T15:42:34.3237577+03:00","level":"INFO","msg":"sender: closed","stream_id":"3ejvf0u3"}
+{"time":"2025-06-14T15:42:34.3237577+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"3ejvf0u3"}
+{"time":"2025-06-14T15:42:34.3237577+03:00","level":"INFO","msg":"stream: closed","id":"3ejvf0u3"}
